@@ -24,5 +24,5 @@ void loop() {
         if (gsm.available())
         Serial.write(gsm.read());
       }
-      //while(1);
+
 }
